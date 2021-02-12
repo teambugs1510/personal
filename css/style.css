@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
   width: 1px;
 }
@@ -32,7 +35,7 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
-.main{
+.about-me{
 	margin-left: 20%;
 }
 
@@ -78,14 +81,26 @@
     padding-top: 20px;
 }
 
+.vr-line{
+
+border-left: 3px solid white;
+padding-left: 20px;
+}
+
+.right-box-1{
+  padding-left: 3rem;
+}
 
 
 
+.card-box-1{
+  padding-left: 16px!important;
+}
 
-
-
-
-
+.container.aejaz {
+    padding-top: 32px;
+    padding-left: 48px;
+}
 
 
 
@@ -127,7 +142,7 @@
 
 @media(max-width: 768.99px){
 	.side-bar{
-  height: 100%!important;
+  height:auto!important;
   width: 100%!important;
   z-index: 0;
     position: static;
@@ -139,12 +154,22 @@
 
 }
 
-.main{
+.about-me{
 	margin-left: 0%;
 	z-index: 11000;
 }
 .right-img-box{
 	    padding-right: 35px!important;
 
+}
+.right-box-1 {
+    padding-left: 16px!important;
+}
+.container.aejaz {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.container.card-box.aejaz.py-2.pl-5 {
+    padding-left: 1rem!important;
 }
 }
