@@ -6,6 +6,26 @@
 html{
   scroll-behavior: smooth;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: red;
+  box-shadow: 1px 1px 6px black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
 ::-webkit-scrollbar {
   width: 1px;
 }
@@ -171,5 +191,9 @@ padding-left: 20px;
 }
 .container.card-box.aejaz.py-2.pl-5 {
     padding-left: 1rem!important;
+}
+#myBtn{
+  font-size: 14px;
+  padding: 10px;
 }
 }
