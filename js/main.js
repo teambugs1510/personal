@@ -18,3 +18,10 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+// disable right click on site
+
+
+document.getElementsByTagName("html")[0].setAttribute("oncontextmenu", "return false");
