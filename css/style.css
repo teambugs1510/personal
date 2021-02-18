@@ -27,7 +27,7 @@ html{
   background-color: #555;
 }
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 4px;
 }
 
 /* Track */
